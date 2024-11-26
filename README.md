@@ -38,8 +38,38 @@ cd DDos
 ```
 
 ### Step 2: Install Dependencies
-No external dependencies are required. Ensure you have Python 3 installed.
+Ensure you have Python 3 installed.
+To check for the python version you may run:
+```
+python --version
+```
+or
+```
+python3 --version
+```
 
+Updating on Linux:
+```
+sudo apt update
+sudo apt install -y python3
+python3 --version
+```
+
+Updating on Windows:
+
+1. Download Installer: Visit the <a href="https://www.python.org/downloads/">Python Downloads Page</a> and download the latest version.
+2. Run Installer:
+  - Double-click the downloaded .exe file.
+  - Ensure the option "Add Python to PATH" is checked during installation.
+3. Verify Installation: Open Command Prompt and check the version:
+```
+python --version
+```
+
+Installing figlet and lolcat:
+```
+sudo apt install figlet && sudo apt install lolcat
+```
 ---
 
 ### Running the script
